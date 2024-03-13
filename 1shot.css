@@ -1,0 +1,90 @@
+.header{display: flex; flex-direction: row; flex: 1;
+justify-content: space-between; align-items: center;
+background-color: rgb(3, 96, 139);
+position: fixed; right:0; left: 0; top:0;
+z-index: 100;}
+
+body{padding-top: 95px;}
+.WELCOME{font-size: 30px; letter-spacing: 5px;color: #fff;
+font-weight: bolder; margin-top: 0; margin-bottom: 5px;}
+.WELCOME :hover{text-shadow: 0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #fff,
+    0 0 80px #fff,
+    0 0 120px #fff;}
+
+.home{font-family: arial;
+font-weight: 800; font-size: x-large; padding-top: 5px;
+letter-spacing: 1px; color: white;}
+
+.homeP:hover{margin-left: 10px; font-size:xx-large; color:rgb(230, 250, 191); cursor: pointer;}
+
+.right{font-size: 22px; padding-top: 10px;color:white;}
+.right :hover{ text-shadow: 0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #fff,
+    0 0 80px #fff,
+    0 0 120px #fff;}
+.right p{cursor: pointer;}
+
+
+
+
+
+
+
+
+.logo{width: 450px;}
+
+.introtexts{display: grid; grid-template-rows: 70px 1fr ;  font-family: Arial;}
+.greetings{font-size: 30px;margin-right: 15px; width: 440px;}
+.greetings b:hover{text-shadow: 0 0 10px #fff,
+                                0 0 20px #fff,
+                                0 0 40px #fff,
+                                0 0 80px #fff,
+                                0 0 120px #fff;}
+.mywork{font-size: 20px;}
+
+
+
+.pic1{display: flex; flex-direction: column; justify-content: center;
+}
+
+.content{ }
+
+
+.content, .content2, .content3 p{font-size: 35px; font-family: arial; color: white;font-weight: bold;}
+.content p:hover{ cursor: pointer;
+     text-shadow: 0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #fff,
+    0 0 80px #fff,
+    0 0 120px #fff;}
+    .content2 p:hover{ cursor: pointer;
+        text-shadow: 0 0 10px #fff,
+       0 0 20px #fff,
+       0 0 40px #fff,
+       0 0 80px #fff,
+       0 0 120px #fff;}
+       .content3 p:hover{ cursor: pointer;
+        text-shadow: 0 0 10px #fff,
+       0 0 20px #fff,
+       0 0 40px #fff,
+       0 0 80px #fff,
+       0 0 120px #fff;}
+   
+   
+
+
+
+.kitchen{width: 300px; border-radius: 1000px; height: 250px;}
+
+.graphics{width: 300px; border-radius: 1000px; height: 185px;}
+
+.content img:hover{cursor: pointer; box-shadow: 0 0 20px rgb(245, 245, 245)}
+.content2 img:hover{cursor: pointer;box-shadow: 0 0 20px rgb(245, 245, 245);}
+.content3 img:hover{cursor: pointer;box-shadow: 0 0 20px rgb(228, 228, 228);}
+
+.ending {display: flex; flex-direction: row;justify-content: space-between;width:200px 1;
+     margin-top: 50px;}
+.ending2 {display: flex; flex-direction: row;justify-content: space-between;width:200px 1;}
